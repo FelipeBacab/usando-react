@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  //se alinea el texto 
 }
 
 .App-logo {
@@ -12,7 +13,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+//se realizo los estilos para colocar color, ubicacion y la justificacion del texto.
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,7 +28,7 @@
 .App-link {
   color: #61dafb;
 }
-
+//cuando entramos en la pagina nos muestra la rotacion de una imagen y aqui esta esta configuracion 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
