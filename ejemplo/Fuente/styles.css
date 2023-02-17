@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;//establece cómo se calcula el ancho y el alto totales de un elemento.
+}
+
+body {
+  font-family: sans-serif; // se coloca el tipo de fuente para el cuerpo de la pagina 
+  margin: 20px; ///un margen de 20 px
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0; //establece el margen superior de un elemento en este caso esta eliminado
+  //en h1 se configura el tamaño de la letra 
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+* {
+  box-sizing: border-box;//establece cómo se calcula el ancho y el alto totales de un elemento.
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.square {
+  background: #fff; //fondo de la pagina 
+  border: 1px solid #999;  //se coloca el tamaño del borde
+  float: left;//coloca el elemento al lado izquierdo 
+  font-size: 24px; //tamaño de la fuente
+  font-weight: bold; //establece el grosor (o negrita) de la fuente.
+  line-height: 34px;//establece la distancia entre líneas de texto. 
+  height: 34px; //configura la altura
+  margin-right: -1px; //margen de abajo
+  margin-top: -1px; //margen de abajo
+  padding: 0; //relleno
+  text-align: center; //se coloca el texto en el centro
+  width: 34px;//un ancho de 24 pixeles
+}
+
+.board-row:after {
+  clear: both;//limpia tanto elementos flotantes de la izquierda como de la derecha.
+  content: '';
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;//margen del boton 
+}
+.game {
+  display: flex;
+  flex-direction: row;//establece cómo se colocan los elementos flexibles en el contenedor flex
+}
+
+.game-info {
+  margin-left: 20px;
+}
